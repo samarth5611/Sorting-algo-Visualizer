@@ -1,11 +1,41 @@
+.container {
+  width: 1000px;
+  height: 500px;
+}
+
+.btn {
+  margin-left: 30px;
+  margin-right: 30px;
+
+  padding: 20px;
+  border-radius: 15px;
+  font-size: large;
+  background-color: #282c34;
+  color: aqua;
+  border-width: 3px;
+  border-color: aqua;
+  /* color: ; */
+}
+.btn:hover {
+  transition-duration: 500ms;
+  color: #282c34;
+  background-color: aqua;
+}
 .array-case {
-  position: absolute;
-  left: 100px;
-  /* top: 100px; */
+  display: flexbox;
+  width: 1000px;
+  height: 500px;
+  top: 100px;
 }
 
 .array-bar {
-  width: 5px;
+  margin: 2px;
   display: inline-block;
-  margin: 0 1px;
+  width: 1px;
+  /* height: 50px; */
+  background-color: aqua;
+}
+
+.buttons {
+  display: flexbox;
 }
